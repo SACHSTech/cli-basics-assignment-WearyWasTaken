@@ -1,1 +1,22 @@
-
+~/cli-basics-assignment-WearyWasTaken$ pwd
+/home/runner/cli-basics-assignment-WearyWasTaken
+~/cli-basics-assignment-WearyWasTaken$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-WearyWasTaken$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-WearyWasTaken$ cd CLIBasicsFolder
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ echo Adrian ICS4U1b >> myfile.txt
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ cat myfile.txt
+Adrian ICS4U1b
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ ls ~
+cli-basics-assignment-WearyWasTaken  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-WearyWasTaken$ rm /home/runner/cli-basics-assignment-WearyWasTaken/CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-WearyWasTaken$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-WearyWasTaken$ ls ~
+cli-basics-assignment-WearyWasTaken  myfile2.txt  _test_runner.py
